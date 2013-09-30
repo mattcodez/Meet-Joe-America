@@ -1,0 +1,17 @@
+.center
+{
+	display:		block;
+	margin-left:	auto;
+	margin-right:	auto;
+	text-align:		center;
+}
+
+DIV.slide
+{
+	height:			100vh;
+}
+
+IMG.center
+{
+	height:			70%;
+}
