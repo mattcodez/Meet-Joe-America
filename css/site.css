@@ -60,3 +60,21 @@ html, body {
 	width:	100%;
 	text-align:	center;
 }
+
+DIV.imgHolder {
+	opacity:	0;
+}
+
+DIV.imgHolder img{
+	width:	100%;
+}
+
+#baseball {
+	left:	3em;
+	width:	6em;
+}
+
+#football {
+	right:	3em;
+	width:	6em;
+}
