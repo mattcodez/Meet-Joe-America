@@ -4,6 +4,7 @@ html, body {
 	padding:0;
 	margin:0;
 	overflow-x:hidden;
+	background-image: url('../img/Pinstripe/pinstripe.png');
 }
 
 .skrollable {
@@ -36,6 +37,42 @@ html, body {
 	position:static;
 }
 
+@font-face
+{
+	font-family: Ballpark;
+	src: url('../fonts/ballpark.ttf');
+}
+
+@font-face
+{
+	font-family: Chunkfive;
+	src: url('../fonts/Chunkfive.otf');
+}
+
+@font-face
+{
+	font-family: Lobster;
+	src: url('../fonts/Lobster_1.3.otf');
+}
+
+@font-face
+{
+	font-family: Homestead;
+	src: url('../fonts/Homestead/Homestead-Regular.ttf');
+}
+
+H1{
+	font-family: Homestead, Helvetica;
+	color: rgb(67, 128, 218);
+	font-size: 3.5em;
+}
+
+H2{
+	font-family: Ballpark, Helvetica;
+	font-size: 2.5em;
+	color: rgb(201, 60, 60);
+}
+
 .topMsg{
 	top:	0;
 	height:	15%;
@@ -48,21 +85,30 @@ html, body {
 	height:	70%;
 	width:	100%;
 	text-align:	center;
+	z-index: 101;
 }
 
 .inner IMG.mainBackground{
-	height: 100vh;
+	width: auto;
+	max-height: 61vh;
+}
+
+#meetJoe {
+	width: 30%;
+	top:	20%;
+	margin-left: 35%;
+	/* overflow: hidden; */
 }
 
 .bottomMsg{
-	bottom:	0;
+	bottom: 1em;
 	height:	15%;
 	width:	100%;
 	text-align:	center;
 }
 
 DIV.imgHolder {
-	opacity:	0;
+
 }
 
 DIV.imgHolder img{
@@ -70,11 +116,26 @@ DIV.imgHolder img{
 }
 
 #baseball {
+	width:	4em;
 	left:	3em;
-	width:	6em;
 }
 
 #football {
+	width:	5em;
 	right:	3em;
+}
+
+#bowlingBall {
+	width:	7em;
+	right:	4em;
+}
+
+#soccerBall {
 	width:	6em;
+	left:	4em;
+}
+
+#basketBall {
+	width:	8em;
+	right: 9em;
 }
