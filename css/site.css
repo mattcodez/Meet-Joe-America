@@ -70,6 +70,7 @@ H1{
 H2{
 	font-family: Ballpark, Helvetica;
 	font-size: 2.5em;
+	font-weight: 100;
 	color: rgb(201, 60, 60);
 }
 
@@ -138,4 +139,23 @@ DIV.imgHolder img{
 #basketBall {
 	width:	8em;
 	right: 9em;
+}
+
+#headband {
+	width: 26%;
+	margin-left: 38%;
+	z-index: 101;
+}
+
+#champRing {
+	width: 60%;
+	top: 14%;
+}
+
+#champBanner {
+	-webkit-transform-origin: left bottom;
+	z-index: 101;
+	top: 65%;
+	margin-left: 20%;
+	width: 60%;
 }
