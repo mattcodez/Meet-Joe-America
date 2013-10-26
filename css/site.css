@@ -108,6 +108,16 @@ H2{
 	text-align:	center;
 }
 
+#sportsTitle {
+	width:	100%;
+	text-align: center;
+}
+
+#moviesTitle {
+	width:	100%;
+	text-align: center;
+}
+
 DIV.imgHolder {
 
 }
@@ -166,4 +176,19 @@ DIV.imgHolder img{
     bottom: 13%;
 	
     margin-left: 32.5%;
+}
+
+#threeDglasses {
+	    width: 22%;
+
+    left: 39%;
+	z-index:101;
+}
+
+#threeDglassesPlain {
+    width: 22%;
+	
+    top: 33%;
+    left: 39%;
+	z-index:101;
 }
