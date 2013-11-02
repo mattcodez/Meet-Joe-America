@@ -61,6 +61,10 @@ html, body {
 	src: url('../fonts/Homestead/Homestead-Regular.ttf');
 }
 
+#mainContainer {
+	overflow:	hidden;
+}
+
 H1{
 	font-family: Homestead, Helvetica;
 	color: rgb(67, 128, 218);
