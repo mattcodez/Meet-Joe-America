@@ -94,8 +94,8 @@ H2{
 }
 
 .inner IMG.mainBackground{
-	width: auto;
-	max-height: 61vh;
+	/*width: auto;
+	max-height: 61vh;*/
 }
 
 #meetJoe {
