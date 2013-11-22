@@ -184,10 +184,10 @@ DIV.imgHolder img{
 }
 
 #grassyMound {
-    width: 35%;
+    width: 300px;
     bottom: 13%;
 	
-    margin-left: 32.5%;
+    /* margin-left: 32.5%; */
 }
 
 #threeDglasses {
@@ -228,4 +228,29 @@ DIV.imgHolder img{
 
 #kernal6 {
 	width: 110px;
+}
+
+#ticket1 {
+	width: 155px;
+	left: 10%;
+}
+
+#ticket2 {
+	width: 155px;
+	left: 17%;
+}
+
+#popcorn {
+	width: 100px;
+	top: 53%;
+}
+
+#clapper {
+	width: 160px;
+	top: 10%;
+}
+
+#moviestar {
+    width: 400px;
+	
 }
